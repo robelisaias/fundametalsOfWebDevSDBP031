@@ -11,26 +11,26 @@
     <h2>By Robel Isaias</h2>
 
     <img src="flock-at-dusk.jpg" alt="flock of birds at dusk" />
-    <h1>Forms Learning</h1>
+    <h1>Contact Me</h1>
 <form>
-    <label for="email">Email address:</label>
-    <input type="email" name="email"/>
-    <br />
-    <br />
-    <label for="source">How did you hear about us?</label>
-    <select id="options" name="Options" required>
-    <option value="" disabled selected>-- Select an option --</option>
-    <option value="online">Online</option>
-    <option value="events">Events</option>
-    <option value="friend">Friend</option>
-    <option value="telemarket">Telemarketing</option>
-</select>
-    <br />
-  <br />
-  <button type="submit">Submit</button>
   
-  </form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Your full name" required />
+  <br /><br />
 
+  
+  <label for="email">Email address:</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required />
+  <br /><br />
+
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+  <br /><br />
+
+  
+  <button type="submit">Send Message</button>
+</form>
 
 </body>
 </html>
